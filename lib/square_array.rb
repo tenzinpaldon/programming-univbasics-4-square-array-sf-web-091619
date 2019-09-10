@@ -1,6 +1,9 @@
 def square_array(array)
   # your code here
+  count =0
   new_array = []
-  array.each {|ele| new_array << ele*ele}
+  while count<array.length do
+    new_array << array[count]*array[count]
+  end
   new_array
 end
